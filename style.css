@@ -1,0 +1,64 @@
+  /* Universal box sizing */
+  * {
+    box-sizing: border-box;
+}
+
+/* Set the size of the body */
+/*-- body {
+  width: 600px;
+  
+} */
+/* Style the header */
+.header {
+    background-color:rgb(121, 175, 121);
+    font-size: 3vw;
+    text-align: center;
+    padding: 0.5vw;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    font-size: 2vw;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5vw 1vw;
+}
+/* Create two equal columns that float next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(129, 109, 42);
+    font-size: 2vw;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    padding: 0.5vw;
+    font-size: 2vw;
+}
+ /* Responsive layout - makes the two columns stack on top of each other
+  instead of next to each other  */
+   @media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    padding: 0.5vw;
+    font-size: 2vw;
+}
