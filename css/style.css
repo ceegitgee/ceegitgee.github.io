@@ -12,6 +12,7 @@
 .header {
     background-color:rgb(121, 175, 121);
     font-size: 3vw;
+    font-style: italic;
     text-align: center;
     padding: 0.5vw;
 }
@@ -35,6 +36,7 @@
     width: 50%;
     padding: 15px;
     background-color: rgb(129, 109, 42);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vw;
 }
 /* Clear floats after the columns */
