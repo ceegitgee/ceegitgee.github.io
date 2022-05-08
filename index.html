@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
  <html lang="en">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <head>
@@ -11,19 +11,15 @@
    </head>
    <body>
      <!-- Here is main header  -->
-     <header class="header">
+      <header class="header">
        <h1>Haukai Restaurant</h1>
      </header>
      <nav class="topnav">
-       
-       <a href="menu/Menu.html"
- class="topnav">Menu</a></li>
-       <a href="hours/hours.html"
- class="topnav">Hours</a></li>
-       <a href="reservations/reservations.html"
- class="topnav">Reservations</a></li>
-       <a href="contact/contact.html"
- class="topnav">Contact</a></li>
+      
+       <a href="menu/Menu.html" class="topnav">Menu</a></li>
+       <a href="hours/hours.html" class="topnav">Hours</a></li>
+       <a href="reservations/reservations.html" class="topnav">Reservations</a></li>
+       <a href="contact/contact.html" class="topnav">Contact</a></li>
      </nav>
      
      <!-- Here is page's main content-->
@@ -42,7 +38,7 @@
            <p>Kia wheakohia nga tikanga Maori <br> me te manaakitanga o te rohe.</p>
             </p>
             </div><br>
-        <img src="image/restaurant.jpg" alt="restaurant exterior" max-width: 100%;> <br>
+            <img src="image/restaurant.jpg" alt="restaurant exterior" max-width: 100%;> <br>
 
          <h2 id= "identified">Fresh seafood sourced daily from our own region</h2>
          <figure>
@@ -52,20 +48,22 @@
             Haukai proudly serves fresh shellfish, or kai moana, straight from the local Bay of Islands waters. 
             </figurecaption>
           </figure><br>
-         
-         <h2 id= "identified">Authentic, fine quality dishes created by our award winning chef</h2>
-         <img src="image/plate large.jpg" alt="plate of food served at table" max-width: 100%;
-            height: auto;>
-                       
-       </div>
+          <h2 id= "identified">Authentic, fine quality dishes created by our award winning chef</h2>
+         <picture><!--<img src="image/plate large.jpg" alt="plate of food served at table" max-width: 100%;
+            height: auto;> -->
+            
+              <source srcset="image/plate med.jpg" media="(max-width: 600px)">
+              <source srcset="image/plate large.jpg" media="(max-width: 1500px)">
+              <img src="image/plate large.jpg" alt="food served">
+            </picture>
+        </div>
      </main>
-
-     <!-- main footer that is
- used across all pages of website -->
+     <!-- main footer that is used across all pages of website 
+      ! privacy statement link here--> 
      <footer class="footer">
        <p>© Haukai Restaurant. All rights reserved.<br>
         <a href="image/Haukai Restaurant Privacy Statement.mht"
-        >Privacy Statement</a></p>
+        >Privacy Statement</a></p> 
      </footer>
    </body>
  </html>
